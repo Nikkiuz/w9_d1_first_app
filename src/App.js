@@ -35,7 +35,7 @@ function App() {
         />
         <ImgClass source="https://placedog.net/950/640/" altDesc="doggoOne" />
         <ImgClass source="https://placedog.net/950/950/" altDesc="doggoTwo" />
-        
+
         {/* <MainComponent student="Stefano" color="green" />
         <MainComponent student="Giulio" color="red" />
         <MainComponent student="Omar" color="blue" />

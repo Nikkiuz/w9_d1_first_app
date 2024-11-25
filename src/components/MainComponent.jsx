@@ -10,12 +10,12 @@
 // export default MainComponent;
 
 const ButtonComponent = (props) => {
-    return (
-        <section className="btnDiv">
-        <h3>{props.h3Text}</h3>
-        <button className="btn">{props.button}</button>    
-        </section>
-    )
-}
+  return (
+    <section className="btnDiv">
+      <h3>{props.h3Text}</h3>
+      <button className="btn">{props.button}</button>
+    </section>
+  );
+};
 
-export default ButtonComponent
+export default ButtonComponent;
