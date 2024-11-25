@@ -3,6 +3,7 @@ import "./App.css";
 // import MainComponent from "./components/MainComponent";
 // import ClassComponent from "./components/ClassComponent";
 import ButtonComponent from "./components/MainComponent";
+import ImgClass from "./components/ClassComponent";
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           h3Text="Creo un altro bottone in React"
           button="Bottonami"
         />
+        <ImgClass source="https://placedog.net/950/640/" altDesc="doggoOne" />
+        <ImgClass source="https://placedog.net/950/950/" altDesc="doggoTwo" />
+        
         {/* <MainComponent student="Stefano" color="green" />
         <MainComponent student="Giulio" color="red" />
         <MainComponent student="Omar" color="blue" />
