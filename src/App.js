@@ -1,7 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import MainComponent from "./components/MainComponent";
-import ClassComponent from "./components/ClassComponent";
+// import MainComponent from "./components/MainComponent";
+// import ClassComponent from "./components/ClassComponent";
+import ButtonComponent from "./components/MainComponent";
 
 function App() {
   return (
@@ -21,11 +22,21 @@ function App() {
         </a>
       </header>
       <main>
-        <MainComponent student="Stefano" color="green" />
+        <ButtonComponent
+          className="btn"
+          h3Text="Creo un bottone in React"
+          button="Cliccami"
+        />
+        <ButtonComponent
+          className="btn"
+          h3Text="Creo un altro bottone in React"
+          button="Bottonami"
+        />
+        {/* <MainComponent student="Stefano" color="green" />
         <MainComponent student="Giulio" color="red" />
         <MainComponent student="Omar" color="blue" />
         <ClassComponent label="Cliccami 1" />
-        <ClassComponent label="Cliccami 2" />
+        <ClassComponent label="Cliccami 2" /> */}
       </main>
     </div>
   );
